@@ -1,0 +1,27 @@
+Ignore the virtual environment folder
+
+backend/venv/
+venv/
+
+Ignore heavy model files
+
+backend/models/
+*.gguf
+*.bin
+*.pt
+
+Ignore Environment Variables (Security)
+
+.env
+backend/.env
+
+Ignore Node modules
+
+frontend/node_modules/
+mobile/node_modules/
+
+Ignore System files
+
+pycache/
+*.log
+.DS_Store
